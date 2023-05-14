@@ -1,0 +1,45 @@
+.float  {
+    background-color: rgb(94, 92, 89);
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;  
+}
+
+/* .float::after {
+    content: " ";
+    clear: both;
+} */
+
+.float span {
+    float: left;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.float ul li {
+    display: inline;
+}
+
+.float li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#Contact {
+    float: right;
+    margin-right: 20px;
+    border: 1px solid rgb(65, 201, 224);
+    background-color: rgb(65, 201, 224);
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+#Contact a {
+    color: black;
+}
